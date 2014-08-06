@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | Joker's InfoSec Articles]]></title>
   <link href="http://ivanjokerbr.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://ivanjokerbr.github.io/"/>
-  <updated>2014-08-06T17:50:32-03:00</updated>
+  <updated>2014-08-06T17:53:05-03:00</updated>
   <id>http://ivanjokerbr.github.io/</id>
   <author>
     <name><![CDATA[Ivan "Joker"]]></name>
@@ -15,17 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Android MITM]]></title>
-    <link href="http://ivanjokerbr.github.io/blog/2014/09/06/android-mitm/"/>
-    <updated>2014-09-06T15:37:38-03:00</updated>
-    <id>http://ivanjokerbr.github.io/blog/2014/09/06/android-mitm</id>
+    <link href="http://ivanjokerbr.github.io/blog/2014/08/07/android-mitm/"/>
+    <updated>2014-08-07T15:37:38-03:00</updated>
+    <id>http://ivanjokerbr.github.io/blog/2014/08/07/android-mitm</id>
     <content type="html"><![CDATA[<p>When I read about <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2012-6636">CVE 2012-6636</a> two things came to my mind: what executable (javascript) code can we inject? and what can we do messing with the xml/json/html etc being transmitted. Thinking for a few minutes and a bigger question arouse: do developers validate their data? I mean, servers can be compromised, traffic intercepted, bugs of all sorts.</p>
 
 <p>So I went on and spend some weeks on this issue. To do so, these are the necessary tools:</p>
 
-<p>1.<a href="http://developer.android.com/sdk/index.html">Android SDK</a> of course
-2.<a href="http://mitmproxy.org/">mitmproxy</a> for intercepting requests and responses
-3.<a href="code.google.com/p/android-apktool/">Apktool</a> for decompiling the apks
-4.<a href="github.com/egirault/googleplay-api.git">Google Play API</a>, which is not an official google api, for downloading some apps</p>
+<pre><code>+ &lt;a href="http://developer.android.com/sdk/index.html"&gt;Android SDK&lt;/a&gt; of course
++ &lt;a href="http://mitmproxy.org/"&gt;mitmproxy&lt;/a&gt; for intercepting requests and responses
++ &lt;a href="code.google.com/p/android-apktool/"&gt;Apktool&lt;/a&gt; for decompiling the apks
++ &lt;a href="github.com/egirault/googleplay-api.git"&gt;Google Play API&lt;/a&gt;, which is not an official google api, for downloading some apps
+</code></pre>
 
 <p>First of all, I was interested in Brazilian apps, codded and deployed by brazilian programmers &amp; firms. So, no facebook, whatapps etc.</p>
 
