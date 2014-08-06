@@ -4,7 +4,7 @@
   <title><![CDATA[Joker's InfoSec Articles]]></title>
   <link href="http://ivanjokerbr.github.io/atom.xml" rel="self"/>
   <link href="http://ivanjokerbr.github.io/"/>
-  <updated>2014-07-22T09:29:53-03:00</updated>
+  <updated>2014-08-06T15:06:51-03:00</updated>
   <id>http://ivanjokerbr.github.io/</id>
   <author>
     <name><![CDATA[Ivan "Joker"]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First Blog]]></title>
+    <link href="http://ivanjokerbr.github.io/blog/2014/08/06/first-blog/"/>
+    <updated>2014-08-06T15:03:02-03:00</updated>
+    <id>http://ivanjokerbr.github.io/blog/2014/08/06/first-blog</id>
+    <content type="html"><![CDATA[<p>For my first blog entry, I have decided to talk about some old work I&rsquo;ve done.</p>
+]]></content>
+  </entry>
   
 </feed>
