@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://ivanjokerbr.github.io/blog/2014/09/06/android-mitm/</loc>
+    <lastmod>2014-09-06T15:37:38-03:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://ivanjokerbr.github.io/blog/2014/08/06/first-blog/</loc>
     <lastmod>2014-08-06T15:03:02-03:00</lastmod>
     <priority>0.8</priority>
@@ -11,14 +17,14 @@
   
   <url>
     <loc>http://ivanjokerbr.github.io/</loc>
-    <lastmod>2014-08-06T15:35:42-03:00</lastmod>
+    <lastmod>2014-08-06T17:44:19-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://ivanjokerbr.github.io/blog/archives/</loc>
-    <lastmod>2014-08-06T15:35:42-03:00</lastmod>
+    <lastmod>2014-08-06T17:44:19-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

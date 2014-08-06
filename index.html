@@ -9,7 +9,7 @@
   <meta name="author" content="Ivan "Joker"">
 
   
-  <meta name="description" content="For this first entry, I have decided to talk about some old work I&rsquo;ve done. Namely, my PhD Thesis. PhD thesis can be very frustrating, you work &hellip;">
+  <meta name="description" content="When I read about CVE 2012-6636 two things came to my mind: what executable (javascript) code can we inject? and what can we do messing with the xml/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -71,6 +71,65 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/09/06/android-mitm/">Android MITM</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-06T15:37:38-03:00" pubdate data-updated="true">Sep 6<sup>th</sup>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>When I read about <a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2012-6636">CVE 2012-6636</a> two things came to my mind: what executable (javascript) code can we inject? and what can we do messing with the xml/json/html etc being transmitted. Thinking for a few minutes and a bigger question arouse: do developers validate their data? I mean, servers can be compromised, traffic intercepted, bugs of all sorts.</p>
+
+<p>So I went on and spend some weeks on this issue. To do so, these are the necessary tools:</p>
+
+<pre><code>* &lt;a href="http://developer.android.com/sdk/index.html"&gt;Android SDK&lt;/a&gt; of course
+* &lt;a href="http://mitmproxy.org/"&gt;mitmproxy&lt;/a&gt; for intercepting requests and responses
+* &lt;a href="code.google.com/p/android-apktool/"&gt;Apktool&lt;/a&gt; for decompiling the apks
+* &lt;a href="github.com/egirault/googleplay-api.git"&gt;Google Play API&lt;/a&gt;, which is not an official google api, for downloading some apps
+</code></pre>
+
+<p>First of all, I was interested in Brazilian apps, codded and deployed by brazilian programmers &amp; firms. So, no facebook, whatapps etc.</p>
+
+<p>mitmproxy is pretty cool, cause you can hook a Python script to process all request and responses. mitm attacks normally are employed for grabbing data from the user to the net. Some examples that I found grabbed plaintext passwords, cookies , etc. I was more into using mitmproxy&rsquo;s script engine to alter the response from the server, and watching if the app would complain.</p>
+
+<p>What I have found out ? Not one app validates its data. They all assume that what is received is crystal clear. No bad guy in the middle. I have done three payload examples:</p>
+
+<pre><code>* blocking content and displaying a false "update your app" type of social scan for malware delivery
+* injecting javascript for the above CVE
+* changing links to bad guys website
+</code></pre>
+
+<p>I gave a presentation of these findings in BSides last July. You can check the slides <a href="http://www.slideshare.net/ivanjokerbr/">here</a>.</p>
+
+<p>Oh! Https of course. This is the only way to prevent data manipulation. But even for apps with sensitive data, http transfers are used, and thus, may be a pathway to compromise. So developers, watch out and carry more for your data.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/08/06/first-blog/">First Blog</a></h1>
     
     
@@ -119,6 +178,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/09/06/android-mitm/">Android MITM</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/08/06/first-blog/">First Blog</a>

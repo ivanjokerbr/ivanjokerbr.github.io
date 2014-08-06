@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Joker's InfoSec Articles]]></title>
-  <link href="http://ivanjokerbr.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Android | Joker's InfoSec Articles]]></title>
+  <link href="http://ivanjokerbr.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://ivanjokerbr.github.io/"/>
   <updated>2014-08-06T17:44:19-03:00</updated>
   <id>http://ivanjokerbr.github.io/</id>
@@ -42,21 +42,6 @@
 <p>I gave a presentation of these findings in BSides last July. You can check the slides <a href="http://www.slideshare.net/ivanjokerbr/">here</a>.</p>
 
 <p>Oh! Https of course. This is the only way to prevent data manipulation. But even for apps with sensitive data, http transfers are used, and thus, may be a pathway to compromise. So developers, watch out and carry more for your data.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Blog]]></title>
-    <link href="http://ivanjokerbr.github.io/blog/2014/08/06/first-blog/"/>
-    <updated>2014-08-06T15:03:02-03:00</updated>
-    <id>http://ivanjokerbr.github.io/blog/2014/08/06/first-blog</id>
-    <content type="html"><![CDATA[<p>For this first entry, I have decided to talk about some old work I&rsquo;ve done. Namely, my PhD Thesis. PhD thesis can be very frustrating, you work hard for 3, 4 years just to have some pages stored in a dusty bookshelf and a couple of technical articles published. If you are lucky, perhaps be part of a bigger team that is moving towards something useful. Here in Brazil, and several other places this is the reality, I think.</p>
-
-<p>Back then I wasn&rsquo;t part of any &ldquo;great team&rdquo;, actually it was only me (advisor was a moron), so I tried to do something useful that could last a little longer. Basically, I&rsquo;ve developed a PoC tool for doing static analysis on Java code , that could check for inconsistencies in concurrent models. I based my work on the Ptolemy project (ptolemy.eecs.berkeley.edu).</p>
-
-<p>If you are curious, check <a href="https://github.com/ivanjokerbr/Miscelanea/blob/master/ivanTheses.pdf?raw=true">here</a> for a copy of the text.</p>
-
-<p>What can I conclude from my work ? 1) Static analysis is hard :&ndash;) 2) A lot of useful checks can be done statically. Regarding code review, these type of tools are a great allie.</p>
 ]]></content>
   </entry>
   
