@@ -95,11 +95,10 @@
 
 <p>So I went on and spend some weeks on this issue. To do so, these are the necessary tools:</p>
 
-<pre><code>* &lt;a href="http://developer.android.com/sdk/index.html"&gt;Android SDK&lt;/a&gt; of course
-* &lt;a href="http://mitmproxy.org/"&gt;mitmproxy&lt;/a&gt; for intercepting requests and responses
-* &lt;a href="code.google.com/p/android-apktool/"&gt;Apktool&lt;/a&gt; for decompiling the apks
-* &lt;a href="github.com/egirault/googleplay-api.git"&gt;Google Play API&lt;/a&gt;, which is not an official google api, for downloading some apps
-</code></pre>
+<p><a href="http://developer.android.com/sdk/index.html">Android SDK</a> of course
+<a href="http://mitmproxy.org/">mitmproxy</a> for intercepting requests and responses
+<a href="code.google.com/p/android-apktool/">Apktool</a> for decompiling the apks
+<a href="github.com/egirault/googleplay-api.git">Google Play API</a>, which is not an official google api, for downloading some apps</p>
 
 <p>First of all, I was interested in Brazilian apps, codded and deployed by brazilian programmers &amp; firms. So, no facebook, whatapps etc.</p>
 
@@ -107,9 +106,9 @@
 
 <p>What I have found out ? Not one app validates its data. They all assume that what is received is crystal clear. No bad guy in the middle. I have done three payload examples:</p>
 
-<pre><code>* blocking content and displaying a false "update your app" type of social scan for malware delivery
-* injecting javascript for the above CVE
-* changing links to bad guys website
+<pre><code>- blocking content and displaying a false "update your app" type of social scan for malware delivery
+- injecting javascript for the above CVE
+- changing links to bad guys website
 </code></pre>
 
 <p>I gave a presentation of these findings in BSides last July. You can check the slides <a href="http://www.slideshare.net/ivanjokerbr/">here</a>.</p>
