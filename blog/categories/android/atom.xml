@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | Joker's InfoSec Articles]]></title>
   <link href="http://ivanjokerbr.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://ivanjokerbr.github.io/"/>
-  <updated>2014-08-06T17:56:35-03:00</updated>
+  <updated>2014-08-07T09:14:38-03:00</updated>
   <id>http://ivanjokerbr.github.io/</id>
   <author>
     <name><![CDATA[Ivan "Joker"]]></name>
@@ -25,22 +25,25 @@
 <ul>
 <li><a href="http://developer.android.com/sdk/index.html">Android SDK</a> of course</li>
 <li><a href="http://mitmproxy.org/">mitmproxy</a> for intercepting requests and responses</li>
-<li><a href="code.google.com/p/android-apktool/">Apktool</a> for decompiling the apks</li>
-<li><a href="github.com/egirault/googleplay-api.git">Google Play API</a>, which is not an official google api, for downloading some apps</li>
+<li><a href="http://code.google.com/p/android-apktool/">Apktool</a> for decompiling the apks</li>
+<li><a href="http://github.com/egirault/googleplay-api.git">Google Play API</a>, which is not an official google api, for downloading some apps</li>
 </ul>
 
 
 <p>First of all, I was interested in Brazilian apps, codded and deployed by brazilian programmers &amp; firms. So, no facebook, whatapps etc.</p>
 
-<p>mitmproxy is pretty cool, cause you can hook a Python script to process all request and responses. mitm attacks normally are employed for grabbing data from the user to the net. Some examples that I found grabbed plaintext passwords, cookies , etc. I was more into using mitmproxy&rsquo;s script engine to alter the response from the server, and watching if the app would complain.</p>
+<p>mitmproxy is pretty cool, cause you can hook a Python script to process all request and responses. I wrote a starter script and placed it <a href="https://github.com/ivanjokerbr/Miscelanea">here</a>.</p>
+
+<p>mitm attacks normally are employed for grabbing data from the user to the net. Some examples that I found grabbed plaintext passwords, cookies , etc. I was more into using mitmproxy&rsquo;s script engine to alter the response from the server, and watching if the app would complain.</p>
 
 <p>What I have found out ? Not one app validates its data. They all assume that what is received is crystal clear. No bad guy in the middle. I have done three payload examples:</p>
 
-<p><ul>
+<ul>
 <li>blocking content and displaying a false &ldquo;update your app&rdquo; type of social scan for malware delivery</li>
 <li>injecting javascript for the above CVE</li>
 <li>changing links to bad guys website</li>
-<ul></p>
+</ul>
+
 
 <p>I gave a presentation of these findings in BSides last July. You can check the slides <a href="http://www.slideshare.net/ivanjokerbr/">here</a>.</p>
 
