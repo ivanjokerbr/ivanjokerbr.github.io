@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://ivanjokerbr.github.io/blog/2014/08/29/from-the-land-of-the-rising-sun/</loc>
+    <lastmod>2014-08-29T08:41:21-03:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://ivanjokerbr.github.io/blog/2014/08/07/android-mitm/</loc>
     <lastmod>2014-08-07T15:37:38-03:00</lastmod>
     <priority>0.8</priority>
@@ -17,14 +23,14 @@
   
   <url>
     <loc>http://ivanjokerbr.github.io/</loc>
-    <lastmod>2014-08-08T14:05:40-03:00</lastmod>
+    <lastmod>2014-08-29T08:48:19-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://ivanjokerbr.github.io/blog/archives/</loc>
-    <lastmod>2014-08-08T14:05:40-03:00</lastmod>
+    <lastmod>2014-08-29T08:48:19-03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Code Review | Joker's InfoSec Articles]]></title>
+  <link href="http://ivanjokerbr.github.io/blog/categories/code-review/atom.xml" rel="self"/>
+  <link href="http://ivanjokerbr.github.io/"/>
+  <updated>2014-08-29T08:48:19-03:00</updated>
+  <id>http://ivanjokerbr.github.io/</id>
+  <author>
+    <name><![CDATA[Ivan "Joker"]]></name>
+    <email><![CDATA[ivanjokerbr@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[From the Land of the Rising Sun]]></title>
+    <link href="http://ivanjokerbr.github.io/blog/2014/08/29/from-the-land-of-the-rising-sun/"/>
+    <updated>2014-08-29T08:41:21-03:00</updated>
+    <id>http://ivanjokerbr.github.io/blog/2014/08/29/from-the-land-of-the-rising-sun</id>
+    <content type="html"><![CDATA[<p>Right know I&rsquo;m working on developing a benchmark suite of vulnerable Android apps for the sake of code review and teaching secure codding. Well, the first thing of course is listing all possible pitfalls a programming might fall. Compiling this information from multiple sources, I have just jumble across a nice document on the subject. Is from the Japan Smartphone Security Association and was released this year. The website in all in Japanese, but hey, there this <a href="http://www.jssec.org/dl/android_securecoding_en.pdf">Secure Coding Guidebook</a>. Cool stuff. Check it out.</p>
+]]></content>
+  </entry>
+  
+</feed>
